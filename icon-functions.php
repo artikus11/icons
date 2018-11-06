@@ -102,7 +102,20 @@ function get_svg( $args = array() ) {
 	}
 	$svg .= '</svg>';
 
-	return wp_kses_post( $svg );
+	$allowed_html = array(
+		'use' => array(
+			'href'       => true,
+			'xlink:href' => true,
+		),
+		'svg' => array(
+			'class'       => true,
+			'aria-hidden' => true,
+			'title'       => true,
+			'path'        => true,
+		),
+	);
+
+	return wp_kses( $svg, $allowed_html );
 }
 
 /**
