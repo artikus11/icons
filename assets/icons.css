@@ -1,0 +1,461 @@
+.icon {
+    display: inline-block;
+    position: absolute;
+    top: 9px;
+    left: 9px;
+    stroke: currentColor;
+}
+
+.site-social .icon {
+    width: 18px;
+    height: 18px;
+    stroke-width: 0;
+    stroke: currentColor;
+    position: inherit;
+}
+
+.icon-search {
+    display: inline-block;
+    position: relative;
+    top: 4px;
+    left: 2px;
+    width: 18px;
+    height: 18px;
+    stroke: #fff;
+    fill: #28a745;
+}
+
+#searchform button .icon-search:hover {
+    fill: #fff;
+}
+
+.site-social .icon {
+    fill: #fff;
+}
+
+.codepen {
+    background: #000;
+    border: 1px solid #000;
+}
+
+.codepen:hover {
+    background: #fff;
+}
+
+.codepen:hover .icon-codepen {
+    fill: #000;
+}
+
+.digg {
+    background: #000;
+    border: 1px solid #000;
+}
+
+.digg:hover {
+    background: #fff;
+}
+
+.digg:hover .icon-digg {
+    fill: #000;
+}
+
+.dribbble {
+    background: #EA4C89;
+    border: 1px solid #EA4C89;
+}
+
+.dribbble:hover {
+    background: #fff;
+}
+
+.dribbble:hover .icon-dribbble {
+    fill: #EA4C89;
+}
+
+.dropbox {
+    background: #0061FF;
+    border: 1px solid #0061FF;
+}
+
+.dropbox:hover {
+    background: #fff;
+}
+
+.dropbox:hover .icon-dropbox {
+    fill: #0061FF;
+}
+
+.fb {
+    background: #3B5998;
+    border: 1px solid #3B5998;
+}
+
+.fb:hover {
+    background: #fff;
+}
+
+.fb:hover .icon-fb {
+    fill: #3B5998;
+}
+
+.flickr {
+    background: #0063DC;
+    border: 1px solid #0063DC;
+}
+
+.flickr:hover {
+    background: #fff;
+}
+
+.flickr:hover .icon-flickr {
+    fill: #0063DC;
+}
+
+.foursquare {
+    background: #F94877;
+    border: 1px solid #F94877;
+}
+
+.foursquare:hover {
+    background: #fff;
+}
+
+.foursquare:hover .icon-foursquare {
+    fill: #F94877;
+}
+
+.googleplus {
+    background: #DC4E41;
+    border: 1px solid #DC4E41;
+}
+
+.googleplus:hover {
+    background: #fff;
+}
+
+.googleplus:hover .icon-googleplus {
+    fill: #DC4E41;
+}
+
+.github {
+    background: #181717;
+    border: 1px solid #181717;
+}
+
+.github:hover {
+    background: #fff;
+}
+
+.github:hover .icon-github {
+    fill: #181717;
+}
+
+.instagram {
+    background: #E4405F;
+    border: 1px solid #E4405F;
+}
+
+.instagram:hover {
+    background: #fff;
+}
+
+.instagram:hover .icon-instagram {
+    fill: #E4405F;
+}
+
+.linkedin {
+    background: #0077B5;
+    border: 1px solid #0077B5;
+}
+
+.linkedin:hover {
+    background: #fff;
+}
+
+.linkedin:hover .icon-linkedin {
+    fill: #0077B5;
+}
+
+.telegram {
+    background: #2CA5E0;
+    border: 1px solid #2CA5E0;
+}
+
+.telegram:hover {
+    background: #fff;
+}
+
+.telegram:hover .icon-telegram {
+    fill: #2CA5E0;
+}
+
+.pinterest {
+    background: #BD081C;
+    border: 1px solid #BD081C;
+}
+
+.pinterest:hover {
+    background: #fff;
+}
+
+.pinterest:hover .icon-pinterest {
+    fill: #BD081C;
+}
+
+.pocket {
+    background: #EF3F56;
+    border: 1px solid #EF3F56;
+}
+
+.pocket:hover {
+    background: #fff;
+}
+
+.pocket:hover .icon-pocket {
+    fill: #EF3F56;
+}
+
+.reddit {
+    background: #FF4500;
+    border: 1px solid #FF4500;
+}
+
+.reddit:hover {
+    background: #fff;
+}
+
+.reddit:hover .icon-reddit {
+    fill: #FF4500;
+}
+
+.skype {
+    background: #00AFF0;
+    border: 1px solid #00AFF0;
+}
+
+.skype:hover {
+    background: #fff;
+}
+
+.skype:hover .icon-skype {
+    fill: #00AFF0;
+}
+
+.soundcloud {
+    background: #FF3300;
+    border: 1px solid #FF3300;
+}
+
+.soundcloud:hover {
+    background: #fff;
+}
+
+.soundcloud:hover .icon-soundcloud {
+    fill: #FF3300;
+}
+
+.spotify {
+    background: #1ED760;
+    border: 1px solid #1ED760;
+}
+
+.spotify:hover {
+    background: #fff;
+}
+
+.spotify:hover .icon-spotify {
+    fill: #1ED760;
+}
+
+.stumbleupon {
+    background: #EB4823;
+    border: 1px solid #EB4823;
+}
+
+.stumbleupon:hover {
+    background: #fff;
+}
+
+.stumbleupon:hover .icon-stumbleupon {
+    fill: #EB4823;
+}
+
+.tumblr {
+    background: #36465D;
+    border: 1px solid #36465D;
+}
+
+.tumblr:hover {
+    background: #fff;
+}
+
+.tumblr:hover .icon-tumblr {
+    fill: #36465D;
+}
+
+.twitch {
+    background: #6441A4;
+    border: 1px solid #6441A4;
+}
+
+.twitch:hover {
+    background: #fff;
+}
+
+.twitch:hover .icon-twitch {
+    fill: #6441A4;
+}
+
+.twitter {
+    background: #1DA1F2;
+    border: 1px solid #1DA1F2;
+}
+
+.twitter:hover {
+    background: #fff;
+}
+
+.twitter:hover .icon-twitter {
+    fill: #1DA1F2;
+}
+
+.vimeo {
+    background: #1AB7EA;
+    border: 1px solid #1AB7EA;
+}
+
+.vimeo:hover {
+    background: #fff;
+}
+
+.vimeo:hover .icon-vimeo {
+    fill: #1AB7EA;
+}
+
+.wordpress {
+    background: #21759B;
+    border: 1px solid #21759B;
+}
+
+.wordpress:hover {
+    background: #fff;
+}
+
+.wordpress:hover .icon-wordpress {
+    fill: #21759B;
+}
+
+.youtubecube:hover {
+    background: #fff;
+}
+
+.youtubecube:hover .icon-youtubecube {
+    fill: #FF0000;
+}
+
+.youtubecube {
+    background: #FF0000;
+    border: 1px solid #FF0000;
+}
+
+.youtubecube:hover {
+    background: #fff;
+}
+
+.youtubecube:hover .icon-youtubecube {
+    fill: #FF0000;
+}
+
+.viber {
+    background: #665CAC;
+    border: 1px solid #665CAC;
+}
+
+.viber:hover {
+    background: #fff;
+}
+
+.viber:hover .icon-viber {
+    fill: #665CAC;
+}
+
+.vk {
+    background: #6383A8;
+    border: 1px solid #6383A8;
+}
+
+.vk:hover {
+    background: #fff;
+}
+
+.vk:hover .icon-vk {
+    fill: #6383A8;
+}
+
+.whatsapp {
+    background: #25D366;
+    border: 1px solid #25D366;
+}
+
+.whatsapp:hover {
+    background: #fff;
+}
+
+.whatsapp:hover .icon-whatsapp {
+    fill: #25D366;
+}
+
+.ok {
+    background: #F4731C;
+    border: 1px solid #F4731C;
+}
+
+.ok:hover {
+    background: #fff;
+}
+
+.ok:hover .icon-ok {
+    fill: #F4731C;
+}
+
+.mymail {
+    background: #FC2C38;
+    border: 1px solid #FC2C38;
+}
+
+.mymail:hover {
+    background: #fff;
+}
+
+.mymail:hover .icon-mymail {
+    fill: #FC2C38;
+}
+
+.rss {
+    background: #FFA500;
+    border: 1px solid #FFA500;
+}
+
+.rss:hover {
+    background: #fff;
+}
+
+.rss:hover .icon-rss {
+    fill: #FFA500;
+}
+
+.site-social {
+    text-align: center;
+}
+
+.site-social a {
+    width: 32px;
+    height: 32px;
+    line-height: 38px;
+    border-radius: 50%;
+    display: inline-block;
+    text-align: center;
+    margin-right: 0.225rem;
+    -webkit-transition: all .5s ease;
+    transition: all .5s ease;
+}
