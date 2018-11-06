@@ -90,3 +90,8 @@ echo get_svg(
 );
 ?>
 ```
+
+## Changelog
+
+== 1.0.0 ==
+* Realise
