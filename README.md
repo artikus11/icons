@@ -9,11 +9,11 @@
 
 В файле `functions.php` подключить
 
-```require get_template_directory() . '/includes/icons/icon-functons.php';```
+```require get_template_directory() . '/includes/icons/icon-functions.php';```
 
 Путь изменить в зависимости от папки где добавлены иконки. Если в корне темы добавлено то будет так
 
-```require get_template_directory() . '/icons/icon-functons.php';```
+```require get_template_directory() . '/icons/icon-functions.php';```
 
 Так же изменить пути к файлам иконок и стилей
 
@@ -93,5 +93,8 @@ echo get_svg(
 
 ## Changelog
 
+== 1.0.1 ==
+* Update files name
+
 == 1.0.0 ==
-* Realise
+* Release
